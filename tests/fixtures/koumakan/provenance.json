@@ -1,0 +1,9 @@
+{
+  "source": "User-supplied browser DOM, not an HTTP initial response",
+  "original_sha256": "315b4e347c5f93592d8ecdf6727580dd817693179e1e45974e9f1a8650d550b3",
+  "derived_fixture": "shinano_quotes_sanitized.html",
+  "derived_sha256": "8dda9fffbd12cc5443ba2d806ecc61ea0dafef2f3a5a70fd0f483ea40f508c78",
+  "method": "Kept General identity navigation, server roots, headings, quote tables and necessary attributes; removed other page content, scripts, style, controls, forms and external auxiliary links. Original file is not bundled. All 288 candidate language/source meanings compare equal.",
+  "candidate_meanings_equal": true,
+  "rights": "Third-party text remains under its original rights. Test/reference use for this user delivery only; no claim of unrestricted redistribution."
+}

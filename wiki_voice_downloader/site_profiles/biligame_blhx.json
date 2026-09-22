@@ -1,0 +1,35 @@
+{
+  "profile_schema_version": 1,
+  "site_id": "biligame_blhx",
+  "parser_id": "biligame_blhx",
+  "strategy": "biligame_blhx",
+  "display_name": "Biligame / BWIKI",
+  "page": {
+    "hosts": [
+      "wiki.biligame.com"
+    ],
+    "path_pattern": "^/blhx/[^/].*$"
+  },
+  "audio_sources": [
+    {
+      "host": "patchwiki.biligame.com",
+      "path_prefix": "/images/blhx/"
+    },
+    {
+      "host": "wiki.biligame.com",
+      "path_prefix": "/blhx/"
+    }
+  ],
+  "selectors": {
+    "quote_table": ".table-ShipWordsTable",
+    "audio_link": ".sm-audio-src a[href], audio[src], audio source[src]",
+    "language_node": ".ship_word_line",
+    "ignore_nodes": []
+  },
+  "columns": {},
+  "server_defaults": {},
+  "media_formats": [
+    "mp3",
+    "ogg"
+  ]
+}

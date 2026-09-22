@@ -1,0 +1,8 @@
+# Windows build environment only; see docs/test_report.md for verification status.
+-r requirements-dev.txt
+PyInstaller==6.22.2
+pyinstaller-hooks-contrib==2026.7
+altgraph==0.17.5
+setuptools==82.0.1
+pefile==2024.8.26; sys_platform == "win32"
+pywin32-ctypes==0.2.3; sys_platform == "win32"

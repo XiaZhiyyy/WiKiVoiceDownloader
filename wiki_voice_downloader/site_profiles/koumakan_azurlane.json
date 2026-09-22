@@ -1,0 +1,69 @@
+{
+  "profile_schema_version": 1,
+  "site_id": "koumakan_azurlane",
+  "parser_id": "koumakan_azurlane",
+  "strategy": "koumakan_quotes",
+  "display_name": "Koumakan Azur Lane Quotes",
+  "page": {
+    "hosts": [
+      "azurlane.koumakan.jp"
+    ],
+    "path_pattern": "^/wiki/[^?#]+/Quotes/?$"
+  },
+  "audio_sources": [
+    {
+      "host": "azurlane.netojuu.com",
+      "path_prefix": "/images/"
+    }
+  ],
+  "selectors": {
+    "server_panel": "article.tabber__panel",
+    "group_heading": "h3",
+    "quote_table": "table.alshipquote",
+    "row": "tr",
+    "audio_link": "a.sm2_button[href]",
+    "language_node": "span[lang]",
+    "ignore_nodes": [
+      "sup.reference",
+      ".mw-editsection",
+      ".mw-references-wrap",
+      "button",
+      ".sm2_button",
+      ".mw-collapsible-toggle"
+    ]
+  },
+  "columns": {
+    "event": 0,
+    "audio": 1,
+    "transcription": 2
+  },
+  "column_headers": {
+    "event": [
+      "Event"
+    ],
+    "audio": [
+      "VO"
+    ],
+    "transcription": [
+      "Transcription"
+    ]
+  },
+  "server_defaults": {
+    "English Server": {
+      "id": "en",
+      "text_language": "en"
+    },
+    "Chinese Server": {
+      "id": "cn",
+      "text_language": "zh"
+    },
+    "Japanese Server": {
+      "id": "jp",
+      "text_language": "ja"
+    }
+  },
+  "media_formats": [
+    "mp3",
+    "ogg"
+  ]
+}

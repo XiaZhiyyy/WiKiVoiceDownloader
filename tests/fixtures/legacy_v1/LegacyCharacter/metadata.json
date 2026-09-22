@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "parser_id": "biligame_blhx",
+  "character_name": "LegacyCharacter",
+  "directory_name": "LegacyCharacter",
+  "source_page_url": "https://wiki.biligame.com/blhx/OfflineCharacter",
+  "resolved_page_url": "https://wiki.biligame.com/blhx/OfflineCharacter",
+  "canonical_url": "https://wiki.biligame.com/blhx/OfflineCharacter",
+  "page_identity": "biligame:blhx:url:wiki.biligame.com/blhx/OfflineCharacter",
+  "identity_aliases": [
+    "biligame:blhx:url:wiki.biligame.com/blhx/OfflineCharacter"
+  ],
+  "txt_filename": "LegacyCharacter.txt",
+  "created_at": "2026-09-12T17:05:37+00:00",
+  "updated_at": "2026-09-12T17:05:37+00:00",
+  "next_id": 4,
+  "items": [
+    {
+      "id": 1,
+      "filename": "001.mp3",
+      "source_url": "https://patchwiki.biligame.com/images/blhx/test/A.mp3",
+      "source_key": "https://patchwiki.biligame.com/images/blhx/test/A.mp3",
+      "resolved_audio_url": "https://patchwiki.biligame.com/images/blhx/test/A.mp3",
+      "group_id": "base",
+      "group_name": "原皮",
+      "category": "登录界面",
+      "texts": [
+        {
+          "language": "zh",
+          "text": "你好，指挥官！"
+        }
+      ],
+      "text_status": "present",
+      "status": "completed",
+      "size_bytes": 417,
+      "sha256": "d481143af2d5081394191497363a6e44a0286aa8d2fac5ffc208fe71833c8e99",
+      "first_seen_at": "2026-09-12T17:05:37+00:00",
+      "downloaded_at": "2026-09-12T17:05:37+00:00",
+      "last_attempt_at": "2026-09-12T17:05:37+00:00",
+      "last_error": null,
+      "last_attempt_count": 1,
+      "diagnostics": [],
+      "frame_count": 1
+    },
+    {
+      "id": 2,
+      "filename": "002.mp3",
+      "source_url": "https://patchwiki.biligame.com/images/blhx/test/B.mp3",
+      "source_key": "https://patchwiki.biligame.com/images/blhx/test/B.mp3",
+      "resolved_audio_url": null,
+      "group_id": "base",
+      "group_name": "原皮",
+      "category": "登录台词",
+      "texts": [
+        {
+          "language": "zh",
+          "text": "第一句，指挥官。"
+        }
+      ],
+      "text_status": "present",
+      "status": "failed",
+      "size_bytes": null,
+      "sha256": null,
+      "first_seen_at": "2026-09-12T17:05:37+00:00",
+      "downloaded_at": null,
+      "last_attempt_at": "2026-09-12T17:05:37+00:00",
+      "last_error": "HTTP 404：该请求未成功。",
+      "last_attempt_count": 1,
+      "diagnostics": []
+    },
+    {
+      "id": 3,
+      "filename": "003.mp3",
+      "source_url": "https://patchwiki.biligame.com/images/blhx/test/C.mp3",
+      "source_key": "https://patchwiki.biligame.com/images/blhx/test/C.mp3",
+      "resolved_audio_url": "https://patchwiki.biligame.com/images/blhx/test/C.mp3",
+      "group_id": "base",
+      "group_name": "原皮",
+      "category": "登录台词",
+      "texts": [
+        {
+          "language": "ja",
+          "text": "二番目の台詞です。"
+        }
+      ],
+      "text_status": "present",
+      "status": "completed",
+      "size_bytes": 417,
+      "sha256": "d481143af2d5081394191497363a6e44a0286aa8d2fac5ffc208fe71833c8e99",
+      "first_seen_at": "2026-09-12T17:05:37+00:00",
+      "downloaded_at": "2026-09-12T17:05:37+00:00",
+      "last_attempt_at": "2026-09-12T17:05:37+00:00",
+      "last_error": null,
+      "last_attempt_count": 1,
+      "diagnostics": [],
+      "frame_count": 1
+    }
+  ]
+}

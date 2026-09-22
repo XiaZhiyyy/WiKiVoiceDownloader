@@ -1,0 +1,22 @@
+[
+  {
+    "file": "vorbis.ogg",
+    "sha256": "7fb22f046ba08a4cdb48b57d5ad4dd131f9ca644f91ceb065d897f4e03220f12",
+    "size": 3926,
+    "generated": "20 ms mathematical 440 Hz sine; no game recording",
+    "soundfile": "0.13.1",
+    "libsndfile": "1.2.2",
+    "decoded_samples": 960,
+    "sample_rate": 48000
+  },
+  {
+    "file": "opus.ogg",
+    "sha256": "89a0c240f07c66be1ea80c360e99b1487d30259618636270a10058c3d096f12c",
+    "size": 1205,
+    "generated": "20 ms mathematical 440 Hz sine; no game recording",
+    "soundfile": "0.13.1",
+    "libsndfile": "1.2.2",
+    "decoded_samples": 960,
+    "sample_rate": 48000
+  }
+]
